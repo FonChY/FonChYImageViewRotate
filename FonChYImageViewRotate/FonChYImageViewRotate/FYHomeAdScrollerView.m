@@ -8,7 +8,7 @@
 
 #import "FYHomeAdScrollerView.h"
 #import "UIImageView+WebCache.h"
-//#import "FYNetWorkTools.h"
+
 #define UISCREENWIDTH  self.bounds.size.width//广告的宽度
 #define UISCREENHEIGHT  self.bounds.size.height//广告的高度
 
@@ -80,9 +80,15 @@ static NSUInteger currentImage = 1;//记录中间图片的下标,开始总是为
 - (void)setImageNameArray:(NSArray *)imageNameArray
 {
     _imageNameArray = imageNameArray;
-    [_leftImageView sd_setImageWithURL:[NSURL URLWithString:_imageNameArray[0]]];
-    [_centerImageView sd_setImageWithURL:[NSURL URLWithString:_imageNameArray[1]]];
-    [_rightImageView sd_setImageWithURL:[NSURL URLWithString:_imageNameArray[2]]];
+    if (_isInternet) {
+        [_leftImageView sd_setImageWithURL:[NSURL URLWithString:_imageNameArray[0]]];
+        [_centerImageView sd_setImageWithURL:[NSURL URLWithString:_imageNameArray[1]]];
+        [_rightImageView sd_setImageWithURL:[NSURL URLWithString:_imageNameArray[2]]];
+    }else{
+        _leftImageView.image = [UIImage imageNamed:_imageNameArray[0]];
+        _centerImageView.image = [UIImage imageNamed:_imageNameArray[1]];
+        _rightImageView.image = [UIImage imageNamed:_imageNameArray[2]];
+    }
 }
 
 #pragma mark - 设置每个对应广告对应的广告语
@@ -195,18 +201,30 @@ static NSUInteger currentImage = 1;//记录中间图片的下标,开始总是为
     {
         return;
     }
-    
-    [_leftImageView sd_setImageWithURL:[NSURL URLWithString:_imageNameArray[(currentImage-1)%_imageNameArray.count]]];
-    _leftAdLabel.text = _adTitleArray[(currentImage-1)%_imageNameArray.count];
-    
-    
-    [_centerImageView sd_setImageWithURL:[NSURL URLWithString:_imageNameArray[currentImage%_imageNameArray.count]]];
-    _centerAdLabel.text = _adTitleArray[currentImage%_imageNameArray.count];
+    if (_isInternet) {
+        [_leftImageView sd_setImageWithURL:[NSURL URLWithString:_imageNameArray[(currentImage-1)%_imageNameArray.count]]];
+        _leftAdLabel.text = _adTitleArray[(currentImage-1)%_imageNameArray.count];
+        
+        
+        [_centerImageView sd_setImageWithURL:[NSURL URLWithString:_imageNameArray[currentImage%_imageNameArray.count]]];
+        _centerAdLabel.text = _adTitleArray[currentImage%_imageNameArray.count];
+        
+        
+        
+        [_rightImageView sd_setImageWithURL:[NSURL URLWithString:_imageNameArray[(currentImage+1)%_imageNameArray.count]]];
+        _rightAdLabel.text = _adTitleArray[(currentImage+1)%_imageNameArray.count];
+    }else{
+        _leftImageView.image = [UIImage imageNamed:_imageNameArray[(currentImage-1)%_imageNameArray.count]];
+        _leftAdLabel.text = _adTitleArray[(currentImage-1)%_imageNameArray.count];
 
-    
-    
-    [_rightImageView sd_setImageWithURL:[NSURL URLWithString:_imageNameArray[(currentImage+1)%_imageNameArray.count]]];
-    _rightAdLabel.text = _adTitleArray[(currentImage+1)%_imageNameArray.count];
+        _centerImageView.image = [UIImage imageNamed:_imageNameArray[currentImage%_imageNameArray.count]];
+        _centerAdLabel.text = _adTitleArray[currentImage%_imageNameArray.count];
+
+        _rightImageView.image = [UIImage imageNamed:_imageNameArray[(currentImage+1)%_imageNameArray.count]];
+        _rightAdLabel.text = _adTitleArray[(currentImage+1)%_imageNameArray.count];
+
+    }
+
     
     self.contentOffset = CGPointMake(UISCREENWIDTH, 0);
     

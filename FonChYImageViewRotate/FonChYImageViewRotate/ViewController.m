@@ -37,7 +37,7 @@
                 [tempArray addObject:imgStr];
                 [titleTempArr addObject:title];
             }
-            
+            scrollView.isInternet = YES;
             scrollView.imageNameArray = tempArray;
             scrollView.adTitleStyle =AdTitleShowStyleLeft;
             
@@ -49,7 +49,12 @@
             scrollView.pageControl.currentPageIndicatorTintColor = [UIColor purpleColor];
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        
+        scrollView.isInternet = NO;
+        scrollView.imageNameArray = @[@"1",@"2",@"3"];
+         scrollView.adTitleStyle =AdTitleShowStyleLeft;
+        scrollView.adTitleArray = @[@"请检查网络",@"请检查网络",@"请检查网络"];
+       
+
     }];
 }
 

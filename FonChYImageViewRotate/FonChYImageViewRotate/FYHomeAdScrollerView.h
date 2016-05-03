@@ -43,4 +43,7 @@ typedef NS_ENUM(NSUInteger, AdTitleShowStyle)
  *  标题样式
  */
 @property (assign,nonatomic,readwrite) AdTitleShowStyle  adTitleStyle;
+
+@property (nonatomic, assign) BOOL isInternet;
+
 @end
