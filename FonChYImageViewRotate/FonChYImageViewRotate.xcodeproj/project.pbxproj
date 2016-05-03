@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B14693F01CD8498C0064B750 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B14693EF1CD8498C0064B750 /* main.m */; };
+		B14693F31CD8498C0064B750 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B14693F21CD8498C0064B750 /* AppDelegate.m */; };
+		B14693F61CD8498C0064B750 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14693F51CD8498C0064B750 /* ViewController.m */; };
+		B14693F91CD8498C0064B750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14693F71CD8498C0064B750 /* Main.storyboard */; };
+		B14693FB1CD8498C0064B750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B14693FA1CD8498C0064B750 /* Assets.xcassets */; };
+		B14693FE1CD8498C0064B750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14693FC1CD8498C0064B750 /* LaunchScreen.storyboard */; };
+		B14694091CD8498C0064B750 /* FonChYImageViewRotateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B14694081CD8498C0064B750 /* FonChYImageViewRotateTests.m */; };
+		B14694141CD8498C0064B750 /* FonChYImageViewRotateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B14694131CD8498C0064B750 /* FonChYImageViewRotateUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B14694051CD8498C0064B750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B14693E31CD8498C0064B750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B14693EA1CD8498C0064B750;
+			remoteInfo = FonChYImageViewRotate;
+		};
+		B14694101CD8498C0064B750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B14693E31CD8498C0064B750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B14693EA1CD8498C0064B750;
+			remoteInfo = FonChYImageViewRotate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B14693EB1CD8498C0064B750 /* FonChYImageViewRotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FonChYImageViewRotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14693EF1CD8498C0064B750 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B14693F11CD8498C0064B750 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B14693F21CD8498C0064B750 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B14693F41CD8498C0064B750 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B14693F51CD8498C0064B750 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B14693F81CD8498C0064B750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B14693FA1CD8498C0064B750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B14693FD1CD8498C0064B750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B14693FF1CD8498C0064B750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14694041CD8498C0064B750 /* FonChYImageViewRotateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FonChYImageViewRotateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14694081CD8498C0064B750 /* FonChYImageViewRotateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FonChYImageViewRotateTests.m; sourceTree = "<group>"; };
+		B146940A1CD8498C0064B750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B146940F1CD8498C0064B750 /* FonChYImageViewRotateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FonChYImageViewRotateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14694131CD8498C0064B750 /* FonChYImageViewRotateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FonChYImageViewRotateUITests.m; sourceTree = "<group>"; };
+		B14694151CD8498C0064B750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B14693E81CD8498C0064B750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B14694011CD8498C0064B750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B146940C1CD8498C0064B750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B14693E21CD8498C0064B750 = {
+			isa = PBXGroup;
+			children = (
+				B14693ED1CD8498C0064B750 /* FonChYImageViewRotate */,
+				B14694071CD8498C0064B750 /* FonChYImageViewRotateTests */,
+				B14694121CD8498C0064B750 /* FonChYImageViewRotateUITests */,
+				B14693EC1CD8498C0064B750 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B14693EC1CD8498C0064B750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B14693EB1CD8498C0064B750 /* FonChYImageViewRotate.app */,
+				B14694041CD8498C0064B750 /* FonChYImageViewRotateTests.xctest */,
+				B146940F1CD8498C0064B750 /* FonChYImageViewRotateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B14693ED1CD8498C0064B750 /* FonChYImageViewRotate */ = {
+			isa = PBXGroup;
+			children = (
+				B14693F11CD8498C0064B750 /* AppDelegate.h */,
+				B14693F21CD8498C0064B750 /* AppDelegate.m */,
+				B14693F41CD8498C0064B750 /* ViewController.h */,
+				B14693F51CD8498C0064B750 /* ViewController.m */,
+				B14693F71CD8498C0064B750 /* Main.storyboard */,
+				B14693FA1CD8498C0064B750 /* Assets.xcassets */,
+				B14693FC1CD8498C0064B750 /* LaunchScreen.storyboard */,
+				B14693FF1CD8498C0064B750 /* Info.plist */,
+				B14693EE1CD8498C0064B750 /* Supporting Files */,
+			);
+			path = FonChYImageViewRotate;
+			sourceTree = "<group>";
+		};
+		B14693EE1CD8498C0064B750 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B14693EF1CD8498C0064B750 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B14694071CD8498C0064B750 /* FonChYImageViewRotateTests */ = {
+			isa = PBXGroup;
+			children = (
+				B14694081CD8498C0064B750 /* FonChYImageViewRotateTests.m */,
+				B146940A1CD8498C0064B750 /* Info.plist */,
+			);
+			path = FonChYImageViewRotateTests;
+			sourceTree = "<group>";
+		};
+		B14694121CD8498C0064B750 /* FonChYImageViewRotateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B14694131CD8498C0064B750 /* FonChYImageViewRotateUITests.m */,
+				B14694151CD8498C0064B750 /* Info.plist */,
+			);
+			path = FonChYImageViewRotateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B14693EA1CD8498C0064B750 /* FonChYImageViewRotate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B14694181CD8498C0064B750 /* Build configuration list for PBXNativeTarget "FonChYImageViewRotate" */;
+			buildPhases = (
+				B14693E71CD8498C0064B750 /* Sources */,
+				B14693E81CD8498C0064B750 /* Frameworks */,
+				B14693E91CD8498C0064B750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FonChYImageViewRotate;
+			productName = FonChYImageViewRotate;
+			productReference = B14693EB1CD8498C0064B750 /* FonChYImageViewRotate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B14694031CD8498C0064B750 /* FonChYImageViewRotateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B146941B1CD8498C0064B750 /* Build configuration list for PBXNativeTarget "FonChYImageViewRotateTests" */;
+			buildPhases = (
+				B14694001CD8498C0064B750 /* Sources */,
+				B14694011CD8498C0064B750 /* Frameworks */,
+				B14694021CD8498C0064B750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B14694061CD8498C0064B750 /* PBXTargetDependency */,
+			);
+			name = FonChYImageViewRotateTests;
+			productName = FonChYImageViewRotateTests;
+			productReference = B14694041CD8498C0064B750 /* FonChYImageViewRotateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B146940E1CD8498C0064B750 /* FonChYImageViewRotateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B146941E1CD8498C0064B750 /* Build configuration list for PBXNativeTarget "FonChYImageViewRotateUITests" */;
+			buildPhases = (
+				B146940B1CD8498C0064B750 /* Sources */,
+				B146940C1CD8498C0064B750 /* Frameworks */,
+				B146940D1CD8498C0064B750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B14694111CD8498C0064B750 /* PBXTargetDependency */,
+			);
+			name = FonChYImageViewRotateUITests;
+			productName = FonChYImageViewRotateUITests;
+			productReference = B146940F1CD8498C0064B750 /* FonChYImageViewRotateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B14693E31CD8498C0064B750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ChinaPan;
+				TargetAttributes = {
+					B14693EA1CD8498C0064B750 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B14694031CD8498C0064B750 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B14693EA1CD8498C0064B750;
+					};
+					B146940E1CD8498C0064B750 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B14693EA1CD8498C0064B750;
+					};
+				};
+			};
+			buildConfigurationList = B14693E61CD8498C0064B750 /* Build configuration list for PBXProject "FonChYImageViewRotate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B14693E21CD8498C0064B750;
+			productRefGroup = B14693EC1CD8498C0064B750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B14693EA1CD8498C0064B750 /* FonChYImageViewRotate */,
+				B14694031CD8498C0064B750 /* FonChYImageViewRotateTests */,
+				B146940E1CD8498C0064B750 /* FonChYImageViewRotateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B14693E91CD8498C0064B750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14693FE1CD8498C0064B750 /* LaunchScreen.storyboard in Resources */,
+				B14693FB1CD8498C0064B750 /* Assets.xcassets in Resources */,
+				B14693F91CD8498C0064B750 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B14694021CD8498C0064B750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B146940D1CD8498C0064B750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B14693E71CD8498C0064B750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14693F61CD8498C0064B750 /* ViewController.m in Sources */,
+				B14693F31CD8498C0064B750 /* AppDelegate.m in Sources */,
+				B14693F01CD8498C0064B750 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B14694001CD8498C0064B750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14694091CD8498C0064B750 /* FonChYImageViewRotateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B146940B1CD8498C0064B750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14694141CD8498C0064B750 /* FonChYImageViewRotateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B14694061CD8498C0064B750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B14693EA1CD8498C0064B750 /* FonChYImageViewRotate */;
+			targetProxy = B14694051CD8498C0064B750 /* PBXContainerItemProxy */;
+		};
+		B14694111CD8498C0064B750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B14693EA1CD8498C0064B750 /* FonChYImageViewRotate */;
+			targetProxy = B14694101CD8498C0064B750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B14693F71CD8498C0064B750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B14693F81CD8498C0064B750 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B14693FC1CD8498C0064B750 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B14693FD1CD8498C0064B750 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B14694161CD8498C0064B750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B14694171CD8498C0064B750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B14694191CD8498C0064B750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FonChYImageViewRotate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChinaPan.FonChYImageViewRotate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B146941A1CD8498C0064B750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FonChYImageViewRotate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChinaPan.FonChYImageViewRotate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B146941C1CD8498C0064B750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FonChYImageViewRotateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChinaPan.FonChYImageViewRotateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FonChYImageViewRotate.app/FonChYImageViewRotate";
+			};
+			name = Debug;
+		};
+		B146941D1CD8498C0064B750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FonChYImageViewRotateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChinaPan.FonChYImageViewRotateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FonChYImageViewRotate.app/FonChYImageViewRotate";
+			};
+			name = Release;
+		};
+		B146941F1CD8498C0064B750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FonChYImageViewRotateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChinaPan.FonChYImageViewRotateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FonChYImageViewRotate;
+			};
+			name = Debug;
+		};
+		B14694201CD8498C0064B750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FonChYImageViewRotateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChinaPan.FonChYImageViewRotateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FonChYImageViewRotate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B14693E61CD8498C0064B750 /* Build configuration list for PBXProject "FonChYImageViewRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14694161CD8498C0064B750 /* Debug */,
+				B14694171CD8498C0064B750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B14694181CD8498C0064B750 /* Build configuration list for PBXNativeTarget "FonChYImageViewRotate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B14694191CD8498C0064B750 /* Debug */,
+				B146941A1CD8498C0064B750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B146941B1CD8498C0064B750 /* Build configuration list for PBXNativeTarget "FonChYImageViewRotateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B146941C1CD8498C0064B750 /* Debug */,
+				B146941D1CD8498C0064B750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B146941E1CD8498C0064B750 /* Build configuration list for PBXNativeTarget "FonChYImageViewRotateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B146941F1CD8498C0064B750 /* Debug */,
+				B14694201CD8498C0064B750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B14693E31CD8498C0064B750 /* Project object */;
+}

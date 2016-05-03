@@ -1,2 +1,3 @@
 # FonChYImageViewRotate
 FonChYImageViewRotate
+这里网络加载的图片是利用网易新闻的接口
